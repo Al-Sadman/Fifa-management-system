@@ -1,0 +1,118 @@
+\usepackage[utf8]{inputenc}
+\section{\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\centering
+
+\includegraphics[width=5cm]{als1.JPG}\\
+%\includegraphics[width=5.5cm]{title/logo nsu.jpeg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\center % Center everything on the page
+
+
+\textsc{\LARGE \textbf{\textit{North South University}}\\[1cm]\textbf{\textit{Department of Electrical and Computer Engineering}}}\\[0.5cm]
+\textsc{\LARGE \textbf{Project Proposal}}\\[2cm] 
+
+
+
+\makeatletter
+\HRule \\[0.4cm]
+{ \huge \bfseries\textbf{ "FIFA game database system"}}\\[0.4cm]
+\HRule \\[0.5cm]
+
+
+ 
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Student Name and Id:}\\
+
+\textbf{Name:Al-Sadman Ahmed}\\
+\textbf{ID: 2022124642}
+
+
+
+
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Faculty:}\\
+\textbf{\textbf{Prof.Nadeem Ahmed}}\\[1.5cm]
+\emph{Submitted to:} \\
+\textbf{Nazmul Alam Diptu} \\[1.2em] 
+\end{flushright}
+\end{minipage}\\[2cm]
+\makeatother
+
+
+
+{\large 18th February,2022}\\[2cm] 
+
+\vfill %
+
+
+\end{titlepage}
+\begin{document}
+
+\section{Introduction}
+"FIFA game database system" will be a database system for FIFA video game and its users.This video game features football players from different countries and clubs around the world and let gamers to build their squads with these players. As stated earlier there are thousands of players in the game. Each player has their own ratings on different attributes, skill moves, special traits, celebration styles and many other informations.Even sometimes a players get special edition card with different traits.To build the squads the gamers pick the players for their squads based on these information. If A gamer wants to have a player in his squad he needs to buy the card of the specific player from the in game market or obtain the card by playing some in game events.However He can not test or campare the player's skils or traits before doing so. This database will allow the gamers to see,search,test and compare the players' skills and other informations in the web.Additionaly this will also helps the gamers to save their squads in the database to share with other gamers. In this system the players' informations will be inserted and updated by the admin.Only admin will have the power to edit the data.The users or gamers can see these informations and use this to compare players and build squads. 
+
+\section{Objective}
+\begin{itemize}
+\item To store,insert and update the detailed informations about all football players in the game.
+\item To let users to compare players' traits and skills among them.
+\item To help users to search players based on different information using filtering.
+\item To let users to register,log and save their squads in the database. 
+\end{itemize}
+\section{Target customers}
+\begin{itemize}
+\item Football video game developers- They use this service to store the data of information on in game players.
+\item Football video gamers- They will use this service to search,compare players and build their squads.
+\end{itemize}
+\section{Value proposition}
+Basically the user or gamers will get the benefits from this website. They can search players' cards based on the given information more easily.They will get to compare and test players' skill in this site without getting in the game. They also get to build and save their desired squads in this site.
+\section{Web Application Feature and description}
+
+The web page will open with the customer view at first. It will be the general view.After entering the site the users have to open an account for further services.After creating the account the user  can get to these features:
+
+\begin{itemize}
+\item Registration
+\item Log in
+\item Filtered search
+\item Compare
+\item Squad builder
+\item Saving and sharing Squads
+\\
+\end{itemize}
+
+
+
+When the admin log in the website he can
+\begin{itemize}
+\item Insert player information
+\item update ,delete player information
+\end{itemize}
+
+\section{Tools and Resources}
+\begin{itemize}
+\item HTML
+\item CSS
+\item MySQL
+\item PHP
+\item Java Script
+\item Web Server
+
+\end{itemize}
+
+\section{Challenge}
+One of the major challenges is the cost of making this database as I have to work with a lot of data for players' information and images, and users' information, squads etc. Next challenge will be to collecting, inserting and updating the data of thousands of FIFA players into the database. Adding the images of players in the database will be difficult also. the user interface also need to be simple to use and understand for the gamers.
+
+\section{Github repository}
+https://github.com/Al-Sadman/Fifa-management-system
+
+\end{document}
